@@ -19,16 +19,28 @@ using namespace std;
 // }
 //print give number is even or odd
 
+// int main()
+// {
+//     int a;
+//     cout<<"enter the number to even or odd"<<endl;
+//     cin>>a;
+//     if (a/2==0){
+//         cout<<"given number is even"<<a<<endl;
+
+//     }
+//     else{
+//         cout<<"Given number is odd"<<a<<endl;
+//     }
+// }
+
+// ternary operator
 int main()
 {
-    int a;
-    cout<<"enter the number to even or odd"<<endl;
-    cin>>a;
-    if (a/2==0){
-        cout<<"given number is even"<<a<<endl;
 
-    }
-    else{
-        cout<<"Given number is odd"<<a<<endl;
-    }
+        int a, b;
+        cout << "Enter the two numbers to fin largest numbers" << endl;
+        cin >> a;
+        cin >> b;
+        int largest=a>b?a:b;
+        cout<<"Largest number is:"<<largest<<endl;
 }
