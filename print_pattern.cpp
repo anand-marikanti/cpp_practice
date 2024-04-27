@@ -1,3 +1,4 @@
+// write a programe to print pattern
 #include <iostream>
 using namespace std;
 
